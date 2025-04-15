@@ -12,7 +12,7 @@
     "dashboard"
   ],
   "module": "energy-flow-card-plus.js",
-  "repository": "git@github.com:jwetzl/energy-flow-card-plus.git",
+  "repository": "https://github.com/jwetzl/energy-flow-card-plus.git",
   "author": "Luca Félix <luca.ziegler.felix@gmail.com>",
   "dependencies": {
     "@mdi/js": "^7.2.96",

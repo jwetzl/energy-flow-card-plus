@@ -37,6 +37,7 @@ module.exports = {
       "@semantic-release/github",
       {
         assets: "dist/*.js",
+        repositoryUrl: "git@github.com:jwetzl/energy-flow-card-plus.git",
       },
     ],
   ],

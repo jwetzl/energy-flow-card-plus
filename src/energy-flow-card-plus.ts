@@ -271,7 +271,7 @@ export default class EnergyFlowCardPlus extends SubscribeMixin(LitElement) {
         : round(valueInNumber, decimals ?? this._config!.wh_decimals),
       this.hass.locale,
     );
-    return `${v}${unitWhiteSpace === false ? '' : ' '}${unit || (isMwh ? 'MWh' : isKWh ? 'kWh' : 'Wh')}`;
+    return `${v}<span class="unit">${unitWhiteSpace === false ? '' : ' '}${unit || (isMwh ? 'MWh' : isKWh ? 'kWh' : 'Wh')}</span>`;
   };
 
   private openDetails(event: { stopPropagation: any; key?: string }, entityId?: string | undefined): void {

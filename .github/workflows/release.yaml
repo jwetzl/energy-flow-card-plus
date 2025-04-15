@@ -39,6 +39,6 @@ jobs:
         run: pnpm build
 
       - name: Release
-        run: pnpx semantic-release
+        run: pnpx semantic-release --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

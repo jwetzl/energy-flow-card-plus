@@ -13,14 +13,6 @@ module.exports = {
             files: ["dist/energy-flow-card-plus.js"],
             from: /Energy Flow Card Plus v(\d+\.\d+\.\d+)/,
             to: "Energy Flow Card Plus v${nextRelease.version}",
-            results: [
-              {
-                file: "dist/energy-flow-card-plus.js",
-                hasChanged: true,
-                numMatches: 2,
-                numReplacements: 2,
-              },
-            ],
             countMatches: true,
           },
         ],
